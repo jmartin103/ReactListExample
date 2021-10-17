@@ -90,7 +90,7 @@ export default function App() {
       {students.map((student, index) => (
         <div key={index}>
           <p key={index}>
-            {student.name} is {student.age} years old, and majoring in{" "}
+            {student.name} is {student.age} years old, and majoring in
             {student.major}.
           </p>
           <p>{student.name}'s Courses and Grades</p>
